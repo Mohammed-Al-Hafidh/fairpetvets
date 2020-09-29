@@ -1,0 +1,140 @@
+* {
+  font-family: Calisto MT, Calibri, serif;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #94bf36;
+  color: white;
+}
+
+.serviceimage {
+  max-width: 100%;
+}
+.service_top_section {
+  margin: 0 !important;
+  background-color: rgba(148, 191, 54, 0.2);
+}
+.center {
+  text-align: center;
+}
+#parent {
+  display: table;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+#child {
+  display: table-cell;
+  vertical-align: middle;
+}
+.verti_align_span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+.middle_section {
+  background-color: #d0d4c3;
+}
+.side_section {
+  background-color: rgba(208, 212, 195, 0.5);
+}
+.linkAndHover a {
+  color: #ffffff;
+}
+.linkAndHover a:hover {
+  color: #94bf36;
+}
+
+#go_button {
+  background-color: #657332;
+  border: none;
+  color: white;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+}
+#top-bar {
+  background-color: #d0d4c3;
+}
+#search-bar {
+  width: 100%;
+}
+.smaller {
+  font-size: 50%;
+}
+.special_h1 {
+  margin: 0 auto;
+}
+.left {
+  text-align: left !important;
+}
+nav {
+  background-color: #657332;
+  width: 100%;
+}
+#footer {
+  margin: 0 !important;
+  background-color: #d0d4c3;
+}
+#bottom-bar {
+  margin: 0 !important;
+  background-color: #657332;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .disappear767 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .special_display {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .show {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .disappear {
+    display: none;
+  }
+}
