@@ -124,6 +124,10 @@
   text-align: left !important;
 }
 
+.img-fluid {
+  min-width: 150px;
+}
+
 nav {
   background-color: #657332;
   width: 100%;

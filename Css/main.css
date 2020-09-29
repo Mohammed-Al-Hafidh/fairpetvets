@@ -72,6 +72,10 @@ button {
     width: 340px;
 }
 
+.img-fluid {
+    min-width: 150px;
+}
+
 .img-resize-200 {
     width: 200px;
 }
