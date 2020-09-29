@@ -15,166 +15,179 @@
 </head>
 
 <body>
-    <!-- Top bar element including social media & search bar -->
-    <section id="top-bar">
-        <div class="row">
-            <div class="col-2">
-                <a href="www.facebook.com"><img class="rounded" src="Images/icon-facebook.svg" alt="Facebook"></a>
-                <a href="www.instagram.com"><img class="rounded" src="Images/icon-instagram.svg" alt="Instagram"></a>
-                <a href="www.twitter.com"><img class="rounded" src="Images/icon-twitter.svg" alt="Twitter"></a>
+    <div class="container">
+        <!-- Top bar element including social media & search bar -->
+        <section id="top-bar">
+            <div class="row">
+                <div class="col">
+                    <a href="https://www.facebook.com"><img class="rounded" src="Images/icon-facebook.svg"
+                            alt="Facebook"></a>
+                    <a href="https://www.instagram.com"><img class="rounded" src="Images/icon-instagram.svg"
+                            alt="Instagram"></a>
+                    <a href="https://www.twitter.com"><img class="rounded" src="Images/icon-twitter.svg"
+                            alt="Twitter"></a>
+                </div>
             </div>
-            <div class="col-5">
-                <span>&nbsp;</span>
-            </div>
-            <div class="col-5">
-                <input id="search-bar" class="form-control" type="text" placeholder="Search our website ..."
-                    aria-label="Search">
-                <button type="button">Go</button>
-            </div>
-        </div>
-    </section>
-    <!-- end of Top bar element -->
-    <!-- Start of Logo and Name element (including ad) -->
-    <header>
-        <div class="row">
-            <div class="col-3">
-                <br>
-                <img class="main-logo float-right" src="Images/fpv-logo.png" alt="Fair Pet Vets">
-            </div>
-            <div class="col-5">
-                <br><br>
-                <h1><b>Fair Pet Vets</b></h1><br>
-                <h3>3818 Blackwell St.</h3><br>
-                <h3>Fairbanks AK 99709</h3><br>
-                <h3>907-555-1234</h3>
-            </div>
-            <div class="col-4">
-                <br>
-                <img class="img-resize-200 main-logo float-left" src="Images/ad-02.jpg" alt="Advertisement">
-            </div>
-        </div><br>
-    </header>
-    <!-- end of Logo and Name element -->
-    <!-- Start of Nav Bar element -->
-    <nav class="navbar justify-content-center">
-        <ul class="nav ">
-            <li class="nav-item">
-                <a class="nav-link active" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="staff.html">Staff</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="service.html">Services</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="reservation.html">Reservations</a>
-            </li>
-        </ul>
-    </nav>
-    <!-- end of Nav Bar element -->
+        </section>
+        <!-- end of Top bar element -->
+        <!-- Start of Logo and Name element (including ad) -->
+        <header>
+            <div class="row">
+                <div class="col-3">
+                    <br>
+                    <img class="img-fluid float-right" src="Images/fpv-logo.png" alt="Fair Pet Vets">
+                </div>
+                <div class="col-5 disappear">
+                    <br><br>
+                    <h1><b>Fair Pet Vets</b></h1><br>
+                    <h3>3818 Blackwell St.</h3><br>
+                    <h3>Fairbanks AK 99709</h3><br>
+                    <h3>907-555-1234</h3>
+                </div>
+                <div class="col-4">
+                    <br>
+                    <img class="img-fluid float-left" src="Images/ad-02.jpg" alt="Advertisement">
+                </div>
+            </div><br>
+        </header>
+        <!-- end of Logo and Name element -->
+        <!-- Start of Nav Bar element -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <!-- Start of page contents-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="staff.html">Staff</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reservation.html">Reservations</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        <!-- end of Nav Bar element -->
 
-    <div class="main row justify-content-center">
-        <!-- SIXTH EXAMPLE -->
-        <div class="view view-sixth col-auto">
-            <img src="./Images/s11.jpg" />
-            <div class="mask">
-                <h2>Doctor A</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium rerum consectetur adipisicing
-                    dolor sit amet.</p>
-                <a href="#" class="info">Read More</a>
+        <!-- Start of page contents-->
+
+        <div class="main row justify-content-center">
+            <!-- SIXTH EXAMPLE -->
+            <div class="view view-sixth col-auto">
+                <img src="./Images/s11.jpg" />
+                <div class="mask">
+                    <h2>Doctor A</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium rerum consectetur
+                        adipisicing
+                        dolor sit amet.</p>
+                    <a href="#" class="info">Read More</a>
+                </div>
+            </div>
+            <div class="view view-sixth col-auto">
+                <img src="./Images/s22.jpg" />
+                <div class="mask">
+                    <h2>Doctor B</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium rerum consectetur
+                        adipisicing
+                        dolor sit amet.</p>
+                    <a href="#" class="info">Read More</a>
+                </div>
+            </div>
+            <div class="view view-sixth col-auto">
+                <img src="./Images/s33.jpg" />
+                <div class="mask">
+                    <h2>Technician A</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium rerum consectetur
+                        adipisicing
+                        dolor sit amet.</p>
+                    <a href="#" class="info">Read More</a>
+                </div>
+            </div>
+            <div class="view view-sixth col-auto">
+                <img src="./Images/s44.jpg" />
+                <div class="mask">
+                    <h2>Technician B</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium rerum consectetur
+                        adipisicing
+                        dolor sit amet.</p>
+                    <a href="#" class="info">Read More</a>
+                </div>
+            </div>
+            <div class="view view-sixth col-auto">
+                <img src="./Images/s555.jpg" />
+                <div class="mask">
+                    <h2>Support A</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium rerum consectetur
+                        adipisicing
+                        dolor sit amet.</p>
+                    <a href="#" class="info">Read More</a>
+                </div>
+            </div>
+            <div class="view view-sixth col-auto">
+                <img src="./Images/s66.jpg" />
+                <div class="mask">
+                    <h2>Support B</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium rerum consectetur
+                        adipisicing
+                        dolor sit amet.</p>
+                    <a href="#" class="info">Read More</a>
+                </div>
             </div>
         </div>
-        <div class="view view-sixth col-auto">
-            <img src="./Images/s22.jpg" />
-            <div class="mask">
-                <h2>Doctor B</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium rerum consectetur adipisicing
-                    dolor sit amet.</p>
-                <a href="#" class="info">Read More</a>
+
+        <!-- End of page contents-->
+
+        <!-- Start of Footer element -->
+        <footer>
+            <div class="row">
+                <div class="col-sm text-center">
+                    <h3><br><br>Our Mission ...<br><br></h3>
+                    <p class="secondary-text width-restrict">
+                        "Nam a nisi egestas, volutpat massa at, mattis dui. Duis condimentum enim quis purus vulputate
+                        bibendum. Suspendisse potenti. Donec non molestie ante, vel lacinia neque."
+                    </p>
+                </div>
+                <div class="col-sm text-center">
+                    <h3><br><br>Location<br><br><br></h3>
+                    <p class="secondary-text">
+                        <img class="img-resize-200" src="Images/location.png" alt="Location">
+                    </p>
+                </div>
+                <div class="col-sm text-center">
+                    <h3><br><br>Hours<br><br></h3>
+                    <p class="secondary-text">
+                        Monday: 9AM - 5PM<br>
+                        Tuesday: 9AM - 5PM<br>
+                        Wednesday: 9AM - 5PM<br>
+                        Thursday: 9AM - 5PM<br>
+                        Friday: 9AM - 5PM<br>
+                        Saturday: 9AM - 5PM<br>
+                        Sunday: 9AM - 5PM
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="view view-sixth col-auto">
-            <img src="./Images/s33.jpg" />
-            <div class="mask">
-                <h2>Technician A</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium rerum consectetur adipisicing
-                    dolor sit amet.</p>
-                <a href="#" class="info">Read More</a>
+            <div id="bottom-bar" class="row">
+                <div class="col text-center">
+                    <p>&copy; 2018 - 2020 Fair Pet Vets. All Rights Reserved.</p>
+                </div>
             </div>
-        </div>
-        <div class="view view-sixth col-auto">
-            <img src="./Images/s44.jpg" />
-            <div class="mask">
-                <h2>Technician B</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium rerum consectetur adipisicing
-                    dolor sit amet.</p>
-                <a href="#" class="info">Read More</a>
-            </div>
-        </div>
-        <div class="view view-sixth col-auto">
-            <img src="./Images/s555.jpg" />
-            <div class="mask">
-                <h2>Support A</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium rerum consectetur adipisicing
-                    dolor sit amet.</p>
-                <a href="#" class="info">Read More</a>
-            </div>
-        </div>
-        <div class="view view-sixth col-auto">
-            <img src="./Images/s66.jpg" />
-            <div class="mask">
-                <h2>Support B</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium rerum consectetur adipisicing
-                    dolor sit amet.</p>
-                <a href="#" class="info">Read More</a>
-            </div>
-        </div>
+        </footer>
+        <!-- end of Footer element -->
     </div>
-
-    <!-- End of page contents-->
-
-    <!-- Start of Footer element -->
-    <footer>
-        <div class="row">
-            <div class="col-sm text-center">
-                <h3><br><br>Our Mission ...<br><br></h3>
-                <p class="secondary-text width-restrict">
-                    "Nam a nisi egestas, volutpat massa at, mattis dui. Duis condimentum enim quis purus vulputate
-                    bibendum. Suspendisse potenti. Donec non molestie ante, vel lacinia neque."
-                </p>
-            </div>
-            <div class="col-sm text-center">
-                <h3><br><br>Location<br><br><br></h3>
-                <p class="secondary-text">
-                    <img class="img-resize-200" src="Images/location.png" alt="Location">
-                </p>
-            </div>
-            <div class="col-sm text-center">
-                <h3><br><br>Hours<br><br></h3>
-                <p class="secondary-text">
-                    Monday: 9AM - 5PM<br>
-                    Tuesday: 9AM - 5PM<br>
-                    Wednesday: 9AM - 5PM<br>
-                    Thursday: 9AM - 5PM<br>
-                    Friday: 9AM - 5PM<br>
-                    Saturday: 9AM - 5PM<br>
-                    Sunday: 9AM - 5PM
-                </p>
-            </div>
-        </div>
-        <div id="bottom-bar" class="row">
-            <div class="col text-center">
-                <p>&copy; 2018 - 2020 Fair Pet Vets. All Rights Reserved.</p>
-            </div>
-        </div>
-    </footer>
-    <!-- end of Footer element -->
+    <!-- end of main container -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

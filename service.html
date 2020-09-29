@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-  <link rel="stylesheet" href="Css/main.css">
   <link rel="stylesheet" href="Css/service.css">
   <title>Fair_Vets_Services</title>
 </head>
@@ -17,7 +16,7 @@
 
 
   <div class="container">
-    <div class="special_display">
+    <!-- <div class="special_display">
       <div class="topnav">
         <a href="#Home" class="active">Fair Pet Vets</a>
         <div id="myLinks">
@@ -31,31 +30,22 @@
           <i class="fa fa-bars"></i>
         </a>
       </div>
-    </div>
+    </div> -->
 
     <section id="top-bar">
       <div class="row no-gutters">
-        <div class="col-md-5 disappear">
+        <div class="col disappear">
           <a href="www.facebook.com"><img class="rounded" src="Images/icon-facebook.svg" alt="Facebook"></a>
           <a href="www.instagram.com"><img class="rounded" src="Images/icon-instagram.svg" alt="Instagram"></a>
           <a href="www.twitter.com"><img class="rounded" src="Images/icon-twitter.svg" alt="Twitter"></a>
         </div>
-
-        <div class="col-md-5 col-10">
-          <input id="search-bar" class="form-control" type="text" placeholder="Search our website ..."
-            aria-label="Search" />
-        </div>
-        <div class="col-2">
-          <button type="button" id="go_button">Go</button>
-        </div>
-      </div>
     </section>
     <!-- end of Top bar element -->
     <!-- Start of Logo and Name element (including ad) -->
     <div class="row">
       <div class="col-md-3 offset-md-1 col-sm-12">
         <br />
-        <img style="margin: auto; display: block;" class="main-logo serviceimage" src="Images/fpv-logo.png"
+        <img style="margin: auto; display: block;" class="img-fluid serviceimage" src="Images/fpv-logo.png"
           alt="Fair Pet Vets" />
       </div>
       <div class="col-1 disappear767">
@@ -80,25 +70,34 @@
     <br />
     <!-- end of Logo and Name element -->
     <!-- Start of Nav Bar element -->
-    <nav class="nav justify-content-center disappear">
-      <ul class="nav">
-        <li class="nav-item linkAndHover">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item linkAndHover">
-          <a class="nav-link" href="gallery.html">Gallery</a>
-        </li>
-        <li class="nav-item linkAndHover">
-          <a class="nav-link" href="staff.html">Staff</a>
-        </li>
-        <li class="nav-item linkAndHover">
-          <a class="nav-link active " href="service.html">Services</a>
-        </li>
-        <li class="nav-item linkAndHover">
-          <a class="nav-link" href="reservation.html">Reservations</a>
-        </li>
-      </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="staff.html">Staff</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" href="service.html">Services</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="reservation.html">Reservations</a>
+              </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+          </form>
+      </div>
+  </nav>
     <!-- end of Nav Bar element -->
 
     <!--First row: image + heading 1-->
