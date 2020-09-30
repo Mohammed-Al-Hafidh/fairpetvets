@@ -2,6 +2,31 @@
 <html lang="en">
 
 <head>
+  <!-- Primary Meta Tags -->
+  <title>Fair Pet Vets-Reservation</title>
+  <meta name="title" content="Fair Pet Vets">
+  <meta name="description" content="A small vet clinic that wants to provide high-end veterinary care with love and compassion for our favorite household family member. We promote optimal health for all the stages of life.">
+
+  <meta name="keywords" content="Pets, Doctor, Doctors, Animals, vet, vets">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="English">
+  <meta name="revisit-after" content="15 days">
+  <meta name="author" content="Fair Pet Vets">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://fairpetvets.ca/">
+  <meta property="og:title" content="Fair Pet Vets">
+  <meta property="og:description" content="A small vet clinic that wants to provide high-end veterinary care with love and compassion for our favorite household family member. We promote optimal health for all the stages of life.">
+  <meta property="og:image" content="https://fairpetvets.ca/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://fairpetvets.ca/">
+  <meta property="twitter:title" content="Fair Pet Vets">
+  <meta property="twitter:description" content="A small vet clinic that wants to provide high-end veterinary care with love and compassion for our favorite household family member. We promote optimal health for all the stages of life.">
+  <meta property="twitter:image" content="https://fairpetvets.ca/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
   <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -12,7 +37,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   <link rel="stylesheet" href="Css/service.css">
   <link rel="stylesheet" href="Css/reservation.css">
-  <title>Fair_Vets_Reservation</title>
+
 </head>
 
 <body>
@@ -105,18 +130,22 @@
     </nav>
     <!-- end of Nav Bar element -->
     <div class="testbox">
-      <form action="/">
+      <form method="POST" action="thankyou.html" autocomplete="on">
         <h1>Make Your Reservation Now!</h1>
         <p>Please make sure you have filled all the required area.</p>
         <h4>Name<span class="redspan">*</span></h4>
         <div class="name">
-          <input type="text" name="fname" placeholder="First" required />
-          <input type="text" name="lname" placeholder="Last" required />
+          <input type="text" name="fname" placeholder="First" maxlength="33" size="50"
+          pattern="[a-zA-Z]+[ ][a-zA-Z]+{1,32}" required />
+          <input type="text" name="lname" placeholder="Last" maxlength="33" size="50"
+          pattern="[a-zA-Z]+[ ][a-zA-Z]+{1,32}" required />
         </div>
         <h4>Email<span class="redspan">*</span></h4>
-        <input type="text" name="email" class="fullwidth" required />
+        <input type="text" name="email" placeholder="your_email@domain.com" 
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" size="50" maxlength="30" class="fullwidth" required />
         <h4>Phone<span class="redspan">*</span></h4>
-        <input type="tel" name="phone" class="fullwidth" required />
+        <input type="tel" name="phone" class="fullwidth"  pattern="^^\(?([0-9]{3})\)?[-.●]?([0-9]{3})[-.●]?([0-9]{4})$"
+        placeholder="(xxx) xxx-xxxx" size="50" maxlength="10" required />
         <h4>Location to visit<span class="redspan">*</span></h4>
         <select>
           <option class="disabled" value="location" disabled selected>*Please Select*</option>
