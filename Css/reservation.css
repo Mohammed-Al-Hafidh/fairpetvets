@@ -160,3 +160,24 @@ button:hover {
     word-break: keep-all;
   }
 }
+
+/* form icons */
+input:focus:required:invalid {
+  background-image:url("../icons/error.png");
+  background-repeat:no-repeat;
+  background-position:98% center;
+  background-color:lightgoldenrodyellow;
+}
+
+input:required:valid {
+  background-image: url("../icons/accept.png");
+  background-repeat: no-repeat;
+  background-position: 98% center;
+}
+
+input[type="email"]:focus:required:invalid {
+  background-image: url("../icons/email_error.png");
+  background-repeat: no-repeat;
+  background-position: 98% center;
+}
+/* form icons */
